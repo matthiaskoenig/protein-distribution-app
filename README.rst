@@ -1,4 +1,4 @@
-.. image:: https://github.com/matthiaskoenig/protein-distributio-app/raw/develop/docs/images/favicon/protein-distribution-app-100x100-300dpi.png
+.. image:: https://github.com/matthiaskoenig/protein-distributio-app/raw/main/docs/images/favicon/protein-distribution-app-100x100-300dpi.png
    :align: left
    :alt: protein-distribution-app logo
 
