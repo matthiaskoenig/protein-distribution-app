@@ -1,8 +1,8 @@
-import numpy as np
 import pandas as pd
 import streamlit as st
 
 from protein_distribution import RESULTS_DIR
+
 from protein_distribution.protein_info import get_protein_categories, get_proteins
 from protein_distribution.uniprot import (
     UniprotMetadata,
