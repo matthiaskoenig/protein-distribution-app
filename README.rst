@@ -21,8 +21,8 @@ protein-distribution-app: database of protein variability of CYP, UGT, ABC and S
    :target: https://codecov.io/gh/matthiaskoenig/protein-distribution
    :alt: Codecov
 
-.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.5308801.svg
-   :target: https://doi.org/10.5281/zenodo.5308801
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.8331377.svg
+   :target: https://doi.org/10.5281/zenodo.8331377
    :alt: Zenodo DOI
 
 The objective of this project is to provide a systematic overview of protein variability of CYP450, UGT, ABC and SLC isoforms in the human liver. Relationships within protein isoforms (e.g., subgroups such as sex or ethnicity) and between CYP450 isoforms (e.g., correlations) will be studied. The project will provide an important resource to elucidate factors affecting individual drug metabolism and for computational modeling of drug detoxification by the liver.
@@ -32,8 +32,8 @@ Streamlit protein distribution app.
 How to cite
 ===========
 
-.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.5308801.svg
-   :target: https://doi.org/10.5281/zenodo.5308801
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.8331377.svg
+   :target: https://doi.org/10.5281/zenodo.8331377
    :alt: Zenodo DOI
 
 Installation
