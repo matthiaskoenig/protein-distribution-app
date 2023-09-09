@@ -17,10 +17,6 @@ protein-distribution-app: database of protein variability of CYP, UGT, ABC and S
    :target: http://opensource.org/licenses/LGPL-3.0
    :alt: GNU Lesser General Public License 3
 
-.. image:: https://codecov.io/gh/matthiaskoenig/protein-distribution/branch/develop/graph/badge.svg
-   :target: https://codecov.io/gh/matthiaskoenig/protein-distribution
-   :alt: Codecov
-
 .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.8331377.svg
    :target: https://doi.org/10.5281/zenodo.8331377
    :alt: Zenodo DOI
