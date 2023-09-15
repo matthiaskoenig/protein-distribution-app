@@ -6,8 +6,7 @@ from protein_distribution import RESULTS_DIR
 from protein_distribution.protein_info import get_protein_categories, get_proteins
 from protein_distribution.uniprot import (
     UniprotMetadata,
-    read_metadata,
-    read_uniprot_mapping,
+    read_metadata, read_uniprot2sid,
 )
 from protein_distribution.visualization import (
     plot_protein_abundance,
@@ -36,7 +35,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-uniprot2sid = read_uniprot_mapping()
+uniprot2sid = read_uniprot2sid()
 sid2uniprot = {v: k for k, v in uniprot2sid.items()}
 
 
