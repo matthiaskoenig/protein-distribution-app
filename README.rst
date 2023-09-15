@@ -2,9 +2,35 @@
    :align: left
    :alt: protein-distribution-app logo
 
-protein-distribution-app
-=========================
+protein-distribution-app: database of protein variability of CYP, UGT, ABC and SLC in human liver
+=================================================================================================
+
+.. image:: https://img.shields.io/pypi/v/protein-distribution.svg
+   :target: https://pypi.org/project/protein-distribution/
+   :alt: Current PyPI Version
+
+.. image:: https://img.shields.io/pypi/pyversions/protein-distribution.svg
+   :target: https://pypi.org/project/protein-distribution/
+   :alt: Supported Python Versions
+
+.. image:: https://img.shields.io/pypi/l/protein-distribution.svg
+   :target: http://opensource.org/licenses/LGPL-3.0
+   :alt: GNU Lesser General Public License 3
+
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.8331377.svg
+   :target: https://doi.org/10.5281/zenodo.8331377
+   :alt: Zenodo DOI
+
+The objective of this project is to provide a systematic overview of protein variability of CYP450, UGT, ABC and SLC isoforms in the human liver. Relationships within protein isoforms (e.g., subgroups such as sex or ethnicity) and between CYP450 isoforms (e.g., correlations) will be studied. The project will provide an important resource to elucidate factors affecting individual drug metabolism and for computational modeling of drug detoxification by the liver.
+
 Streamlit protein distribution app.
+
+How to cite
+===========
+
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.8331377.svg
+   :target: https://doi.org/10.5281/zenodo.8331377
+   :alt: Zenodo DOI
 
 Installation
 ============

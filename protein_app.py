@@ -1,12 +1,13 @@
-import numpy as np
 import pandas as pd
 import streamlit as st
 
-from protein_distribution import RESULTS_DIR
+from protein_distribution import DATA_XLSX
+
 from protein_distribution.protein_info import get_protein_categories, get_proteins
 from protein_distribution.uniprot import (
     UniprotMetadata,
-    read_metadata, read_uniprot2sid,
+    read_metadata,
+    read_uniprot2sid,
 )
 from protein_distribution.visualization import (
     plot_protein_abundance,
@@ -42,7 +43,7 @@ sid2uniprot = {v: k for k, v in uniprot2sid.items()}
 @st.cache_data
 def load_data():
     # Load data
-    df_abundance = pd.read_excel(RESULTS_DIR / "data.xlsx", sheet_name="Abundance")
+    df_abundance = pd.read_excel(DATA_XLSX, sheet_name="Abundance")
     del df_abundance["comments"]
     df_abundance["sid"] = df_abundance["study"] + "_" + df_abundance["source"]
     proteins = get_proteins(df_abundance, uniprot=True)
