@@ -37,7 +37,7 @@ Installation
 To run the example applications install the requirements::
 
     cd protein-distribution-app
-    mkvirtualenv protein_app --python=python3.10
+    mkvirtualenv protein_app --python=python3.12
     (protein_app) pip install -r requirements.txt
 
 Run app
@@ -69,8 +69,7 @@ Funding
 Matthias König is supported by the Federal Ministry of Education and Research (BMBF, Germany)
 within the research network Systems Medicine of the Liver (**LiSyM**, grant number 031L0054)
 and by the German Research Foundation (DFG) within the Research Unit Programme FOR 5151
-"`QuaLiPerF <https://qualiperf.de>`__ (Quantifying Liver Perfusion-Function Relationship in Complex Resection -
-A Systems Medicine Approach)" by grant number 436883643 and by grant number
+`QuaLiPerF <https://qualiperf.de>`__ (Quantifying Liver Perfusion-Function Relationship in Complex Resection - A Systems Medicine Approach) by grant number 436883643 and by grant number
 465194077 (Priority Programme SPP 2311, Subproject SimLivA).
 
-© 2022-2023 Matthias König
+© 2022-2024 Matthias König
