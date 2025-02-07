@@ -1,2 +1,2 @@
-protein-distribution>=0.1.7
+protein-distribution>=0.1.9
 streamlit>=1.42.0
